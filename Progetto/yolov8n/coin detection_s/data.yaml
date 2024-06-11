@@ -1,0 +1,13 @@
+train: '/content/gdrive/My Drive/Università/coin detection_s/dataset/train/images'
+val: '/content/gdrive/My Drive/Università/coin detection_s/dataset/valid/images'
+test: '/content/gdrive/My Drive/Università/coin detection_s/dataset/test/images'
+
+nc: 8
+names: ['1c', '2c', '5c', '10c', '20c', '50c', '1e', '2e']
+
+roboflow:
+  workspace: matteo-imbro
+  project: single-coin
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/matteo-imbro/single-coin/dataset/1
