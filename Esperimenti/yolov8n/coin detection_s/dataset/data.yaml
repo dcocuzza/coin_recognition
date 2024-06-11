@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['0', '1', '2', '3', '4', '5', '6', '7']
+
+roboflow:
+  workspace: matteo-imbro
+  project: single-coin
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/matteo-imbro/single-coin/dataset/1
