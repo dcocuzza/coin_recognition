@@ -1,0 +1,13 @@
+train: '/content/gdrive/My Drive/Università/coin detection/datasetV2/train/images'
+val: '/content/gdrive/My Drive/Università/coin detection/datasetV2/valid/images'
+test: '/content/gdrive/My Drive/Università/coin detection/datasetV2/test/images'
+
+nc: 8
+names: ['10c', '1c', '1e', '20c', '2c', '2e', '50c', '5c']
+
+roboflow:
+  workspace: matteo-imbro
+  project: coin-detector-vprzo
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/matteo-imbro/coin-detector-vprzo/dataset/6
