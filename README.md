@@ -1,1 +1,1 @@
-# coin_recognition
+# coin detection
